@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.check{
+  color:red;
+}
+.signup_box{
+  width:400px;
+  height:500px;
+  margin: auto;
+  padding:90px 70px;
+  margin-top:30px;
+  background-color: bisque;
+
+}
+.signup{
+  margin-top: 20px;
+  padding:10px 50px;
+  cursor: pointer;
+  background-color:black;
+  color:white;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+.signup:hover{
+  background-color:white;
+  color:black
+}
+.signup1{
+  margin-top: 20px;
+  padding:10px 50px;
+  cursor: pointer;
+  background-color:blueviolet;
+  color:white;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+}
+.signup1:hover{
+  background-color: green;
+  
+
+}
+.box{
+  width:250px;
+  height:25px;
+}
+.login_box{
+  width:400px;
+  height:300px;
+  margin:auto;
+  margin-top:30px;
+  padding:90px 70px;
+  background-color:mediumturquoise;
+
+}
+.identity{
+  color: darkorchid;
+}
+tr,td{
+  border: 1px solid black;
+}
+.admin{
+  /* margin-top:40px;
+  margin-left: 30%; */
+  text-align: center;
+}
+.login2{
+  margin-top: 20px;
+  margin-left:20px;
+  padding:10px 50px;
+  cursor: pointer;
+  background-color:brown;
+  color:white;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+}
+.login2:hover{
+  background-color:white;
+  color:brown;
+
+}
+.login3{
+  margin-top: 20px;
+  margin-left:20px;
+  padding:10px 50px;
+  cursor: pointer;
+  background-color:black;
+  color:white;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+}
+.login3:hover{
+  background-color:white;
+  color:black;
+
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
